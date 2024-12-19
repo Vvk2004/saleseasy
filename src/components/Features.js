@@ -18,7 +18,7 @@ const Features = () => {
                 <div className="container">
                     <div className="features">
                         <div className="heading">
-                            <h3>Core Features <br /> for Streamlined Sales</h3>
+                            <h3>Core Features for Streamlined Sales</h3>
                             <p>Optimized tools to simplify your sales process and enhance productivity.</p>
                         </div>
                         <div className="allDec">

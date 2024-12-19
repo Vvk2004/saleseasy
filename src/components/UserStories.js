@@ -78,7 +78,7 @@ const UserStories = () => {
             <div className="container">
                 <div className="UserStories">
                     <div className="heading">
-                        <h3>Success Stories from Our <br /> Users </h3>
+                        <h3>Success Stories from Our Users </h3>
                         <p>Optimized tools to simplify your sales process and enhance productivity.</p>
                     </div>
                     <div className="allDecs">

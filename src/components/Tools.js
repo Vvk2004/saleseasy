@@ -11,7 +11,7 @@ const Tools = () => {
                 <div className="container">
                     <div className="tools">
                         <div className="heading">
-                            <h3>Connect with Your Favorite <br /> Tools</h3>
+                            <h3>Connect with Your Favorite Tools</h3>
                             <p>Showcase integrations like payment gateways, email services, or accounting software with logos</p>
                         </div>
                         <div className="dec">
