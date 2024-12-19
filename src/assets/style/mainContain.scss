@@ -61,7 +61,7 @@
                 }
 
                 @media (max-width: 500px) {
-                    font-size: 34px;
+                    font-size: 28px;
                 }
             }
 
@@ -81,7 +81,7 @@
 
                 @media (max-width: 500px) {
                     margin-top: 20px;
-                    font-size: 16px;
+                    font-size: 12px;
                 }
             }
 
@@ -134,7 +134,7 @@
                         font-size: 35px;
 
                         @media (max-width: 500px) {
-                            font-size: 30px;
+                            font-size: 24px;
                         }
                     }
 
@@ -142,7 +142,7 @@
                         justify-content: center;
                         margin-top: 10px;
                         margin-left: 10px;
-                        font-size: 24px;
+                        font-size: 20px;
                     }
                 }
             }
@@ -163,7 +163,10 @@
                 @media (max-width: 1200px) {
                     width: 100%;
                 }
-
+                
+            }
+            @media (max-width: 1200px) {
+                margin-top: 50px;
             }
         }
     }

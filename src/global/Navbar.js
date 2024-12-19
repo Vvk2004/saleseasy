@@ -171,9 +171,6 @@ const Navbar = () => {
                         <li><a href="#">Blog</a></li>
                     </ul>
                 </nav>
-                <div className="info">
-                    <p>ndknkn@gmail.com</p>
-                </div>
             </div>
 
         </>
