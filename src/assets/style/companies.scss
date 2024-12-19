@@ -1,0 +1,37 @@
+.mainCompanies {
+    margin-top: 100px;
+
+    @media (max-width: 500px) {
+        margin-top: 80px;
+    }
+
+    & .companies {
+
+        & .text {
+            display: flex;
+            justify-content: center;
+
+            & p {
+                border-radius: 20px;
+                padding: 10px 15px;
+                border: 1px solid#e7e8e9;
+                color: #4B5563;
+                font-size: 18px;
+
+                & span {
+                    font-weight: 700;
+                    margin: 0 5px;
+                }
+
+                @media (max-width: 500px) {
+                    font-size: 12px;
+                }
+
+            }
+        }
+
+        & .logos {
+            margin-top: 30px;
+        }
+    }
+}

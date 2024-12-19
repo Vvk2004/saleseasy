@@ -1,0 +1,414 @@
+.mainFeatures {
+    margin-top: 100px;
+
+    @media (max-width: 500px) {
+        margin-top: 80px;
+    }
+
+    & .features {
+
+        & .heading {
+
+            & h3 {
+                font-weight: 700;
+                font-size: 40px;
+                text-align: center;
+
+                @media (max-width: 1200px) {
+                    font-size: 36px;
+                }
+
+                @media (max-width: 960px) {
+                    font-size: 34px;
+                }
+
+                @media (max-width: 500px) {
+                    font-size: 30px;
+                }
+            }
+
+            & p {
+                margin-top: 20px;
+                font-weight: 500;
+                font-size: 22px;
+                text-align: center;
+                color: #31373D;
+
+                @media (max-width: 1200px) {
+                    font-size: 20px;
+                }
+
+                @media (max-width: 960px) {
+                    font-size: 18px;
+                }
+
+                @media (max-width: 500px) {
+                    margin-top: 10px;
+                    font-size: 14px;
+                }
+            }
+        }
+
+        & .allDec {
+
+            & .workSpace {
+                margin-top: 50px;
+                display: flex;
+                justify-content: space-between;
+                background-color: #fff;
+                border-radius: 20px;
+                padding: 50px 0 0 50px;
+                overflow: hidden;
+                box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+
+                @media (max-width: 1200px) {
+                    display: block;
+                }
+
+                @media (max-width: 500px) {
+                    padding: 30px 0 0 30px;
+                }
+
+
+                & .textPart {
+                    margin-right: 150px;
+
+                    @media (max-width: 1200px) {
+                        margin-right: 50px;
+                    }
+
+                    @media (max-width: 500px) {
+                        margin-right: 20px;
+                    }
+
+                    & .mainHeading {
+
+                        & h3 {
+                            font-weight: 600;
+                            font-size: 22px;
+                            color: #2A2A2A;
+
+                            @media (max-width: 500px) {
+                                font-size: 18px;
+                            }
+                        }
+
+                        & p {
+                            margin-top: 10px;
+                            font-size: 18px;
+                            font-weight: 400;
+                            color: #555E67;
+
+                            @media (max-width: 500px) {
+                                font-size: 14px;
+                            }
+                        }
+
+                    }
+
+                    & .secHeading {
+                        margin-top: 70px;
+
+                        @media (max-width: 500px) {
+                            margin-top: 50px;
+                        }
+
+                        & h3 {
+                            margin-top: 30px;
+                            display: flex;
+                            align-items: center;
+
+                            & h2 {
+                                font-weight: 600;
+                                font-size: 18px;
+                                color: #2A2A2A;
+
+                                @media (max-width: 500px) {
+                                    font-size: 14px;
+                                }
+                            }
+
+                            & span {
+                                margin-right: 15px;
+                            }
+
+
+                        }
+
+                        & p {
+                            margin-top: 10px;
+                            margin-left: 25px;
+                            font-size: 16px;
+                            font-weight: 400;
+                            color: #555E67;
+
+                            @media (max-width: 500px) {
+                                font-size: 12px;
+                            }
+                        }
+
+                    }
+                }
+
+                & .imagePart {
+
+                    & img {
+
+                        @media (max-width: 1200px) {
+                            width: 100%;
+                            margin-top: 20px;
+                        }
+                    }
+
+                }
+
+            }
+
+            & .mainBox {
+                display: flex;
+                gap: 50px;
+
+                @media (max-width: 1200px) {
+                    display: block;
+                }
+
+                & .smallBox {
+                    margin-top: 50px;
+                    background-color: #fff;
+                    border-radius: 20px;
+                    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+
+                    & .heanding {
+                        padding: 50px 0 0 50px;
+                        margin-right: 80px;
+                        margin-bottom: 30px;
+
+                        & h3 {
+                            font-weight: 600;
+                            font-size: 22px;
+                            color: #2A2A2A;
+
+                            @media (max-width: 500px) {
+                                font-size: 18px;
+                            }
+                        }
+
+                        & p {
+                            margin-top: 10px;
+                            font-weight: 400;
+                            font-size: 18px;
+                            color: #555E67;
+
+                            @media (max-width: 500px) {
+                                font-size: 14px;
+                            }
+                        }
+
+                        @media (max-width: 1200px) {
+                            padding: 30px 0 0 30px;
+                            margin-right: 20px;
+                        }
+                    }
+
+                    & .smallBoxImg {
+                        background-size: cover;
+                        background-position: center;
+                        display: flex;
+                        justify-content: center;
+
+                        & .mainImg {
+                            position: relative;
+                            display: flex;
+                            justify-content: center;
+
+                            & img {
+                                margin-top: 30px;
+                                display: flex;
+                                justify-content: center;
+
+                                @media (max-width: 500px) {
+                                    margin-top: 5px;
+                                }
+
+                            }
+
+                            & .textImg {
+                                top: 60%;
+                                position: absolute;
+
+                                @media (max-width: 1200px) {
+                                    display: none;
+                                }
+
+                            }
+                        }
+
+                        & img {
+                            margin-top: 60px;
+
+                            @media (max-width: 1200px) {
+                                max-width: 100%;
+                            }
+
+                            @media (max-width: 500px) {
+                                max-width: 90%;
+                                margin-top: 10px;
+                            }
+                        }
+                    }
+                }
+
+                & .payment-Delivery {
+                    margin-top: 50px;
+
+                    & .payment {
+                        background-color: #fff;
+                        border-radius: 20px;
+                        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+                        display: flex;
+
+                        @media (max-width: 1200px) {
+                            display: block;
+                        }
+
+                        & .pamentDec {
+                            padding: 50px 70px 50px 50px;
+                            margin-right: 70px;
+
+                            @media (max-width: 900px) {
+                                margin-right: 20px;
+                            }
+
+                            @media (max-width: 500px) {
+                                padding: 30px 0 30px 30px;
+                                margin-right: 20px;
+                            }
+
+                            & h3 {
+                                font-weight: 600;
+                                font-size: 22px;
+                                color: #2A2A2A;
+
+                                @media (max-width: 500px) {
+                                    font-size: 18px;
+                                }
+                            }
+
+                            & p {
+                                margin-top: 10px;
+                                font-weight: 400;
+                                font-size: 18px;
+                                color: #555E67;
+
+                                @media (max-width: 500px) {
+                                    font-size: 14px;
+                                }
+                            }
+                        }
+
+                        & .paymentLogos {
+                            position: relative;
+                            display: flex;
+
+                            & img {
+                                position: absolute;
+
+                                @media (max-width: 1200px) {
+                                    display: none;
+                                }
+                            }
+
+                            & .stripe {
+                                top: 10px;
+                                right: 130px;
+                            }
+
+                            & .paytm {
+                                top: 0;
+                                right: 15px;
+                            }
+
+                            & .razorpay {
+                                top: 50%;
+                                transform: translateY(-50%);
+                                right: 110px;
+                            }
+
+                            & .paypal {
+                                bottom: 0;
+                                right: 170px;
+                            }
+
+                            & .googlepay {
+                                bottom: 0;
+                                right: 15px;
+                            }
+                        }
+                    }
+
+                    & .delivery {
+                        margin-top: 50px;
+                        background-color: #fff;
+                        border-radius: 20px;
+                        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+
+                        & .deliveryDec {
+                            padding: 50px 0 0 50px;
+                            margin-right: 70px;
+                            margin-bottom: 30px;
+
+                            @media (max-width: 1200px) {}
+
+                            @media (max-width: 960px) {}
+
+                            @media (max-width: 600px) {}
+
+                            @media (max-width: 500px) {
+                                padding: 30px 0 0 30px;
+                                margin-right: 20px;
+                            }
+
+                            & h3 {
+                                font-weight: 600;
+                                font-size: 22px;
+                                color: #2A2A2A;
+
+                                @media (max-width: 500px) {
+                                    font-size: 18px;
+                                }
+                            }
+
+                            & p {
+                                margin-top: 10px;
+                                font-weight: 400;
+                                font-size: 18px;
+                                color: #555E67;
+
+                                @media (max-width: 500px) {
+                                    font-size: 14px;
+                                }
+                            }
+                        }
+
+                        & .deliveryImage {
+                            display: flex;
+                            justify-content: center;
+
+                            & img {
+
+                                @media (max-width: 1200px) {
+                                    max-width: 100%;
+                                }
+
+                                @media (max-width: 500px) {
+                                    max-width: 90%;
+                                    margin-top: 10px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

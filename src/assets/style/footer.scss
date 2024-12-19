@@ -1,0 +1,147 @@
+.mainFooter {
+    background-color: #fff;
+    box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.10);
+
+    & .footer {
+
+        & .footerDetails {
+            padding: 100px 0;
+            border-bottom: 1px solid #E2E8F0;
+            display: grid;
+            gap: 100px;
+            grid-template-columns: repeat(3, 1fr);
+
+            @media (max-width: 1200px) {
+                grid-template-columns: repeat(2, 1fr);
+                padding: 50px 0;
+                gap: 50px;
+            }
+
+            @media (max-width: 500px) {
+                grid-template-columns: repeat(1, 1fr);
+                gap: 30px;
+
+            }
+
+            & .dec {
+
+                & .logo {
+
+                    & h3 {
+                        font-weight: 700;
+                        font-size: 24px;
+                    }
+                }
+
+                & p {
+                    margin-top: 10px;
+                    font-weight: 500;
+                    line-height: 24px;
+                    font-size: 16px;
+                    color: #505058;
+
+                }
+            }
+
+            & .navs {
+                display: flex;
+                gap: 150px;
+
+                @media (max-width: 960px) {
+                    gap: 50px;
+                }
+
+                @media (max-width: 500px) {
+                    margin-top: 10px;
+                    font-size: 14px;
+                }
+
+                & .cmp {
+
+                    & p {
+                        font-weight: 600;
+                        font-size: 16px;
+                        color: #071A34;
+                    }
+
+                    & li {
+                        font-weight: 500;
+                        font-size: 16px;
+                        margin-top: 30px;
+
+                        @media (max-width: 500px) {
+                            margin-top: 20px;
+                        }
+                    }
+                }
+            }
+
+            & .newsLetter {
+
+                @media (max-width: 1200px) {
+                    grid-column: span 2;
+                }
+
+                @media (max-width: 500px) {
+                    grid-column: unset;
+                }
+
+                & p {
+                    font-weight: 600;
+                    font-size: 16px;
+                    color: #071A34;
+                }
+
+                & input {
+                    margin-top: 30px;
+                    font-weight: 500;
+                    font-size: 16px;
+                    background-color: #fff;
+                    padding: 14px 10px;
+                    border: 1px solid #E4E4E7;
+                    border-radius: 10px;
+                    width: 100%;
+                    box-sizing: border-box;
+
+                    @media (max-width: 500px) {
+                        margin-top: 10px;
+                    }
+                }
+
+                & button {
+                    margin-top: 15px;
+                    width: 100%;
+                    padding: 14px 10px;
+                    border-radius: 10px;
+                    cursor: pointer;
+                    border: none;
+                    color: #fff;
+                    font-weight: 500;
+                    font-size: 16px;
+                    background-color: #000;
+                }
+            }
+        }
+
+        & .copyRight {
+            padding: 35px;
+
+            & p {
+                display: flex;
+                justify-content: center;
+                font-weight: 400;
+                font-size: 14px;
+                color: #090914;
+
+                @media (max-width: 500px) {
+                    font-size: 12px;
+                    text-align: center;
+                }
+            }
+
+            @media (max-width: 500px) {
+                padding: 25px;
+            }
+        }
+    }
+}
